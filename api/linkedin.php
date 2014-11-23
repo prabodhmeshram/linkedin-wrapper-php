@@ -60,7 +60,6 @@ class LinkedIn {
 	 
 	    // Native PHP object, please
 	    $token = json_decode($response);
-	    var_dump($token);
 	    return $token;
 	}
 
